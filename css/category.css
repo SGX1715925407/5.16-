@@ -1,0 +1,224 @@
+aside {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+aside h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 40px 0px 40px 0px;
+    color: #333;
+}
+
+.aside_ {
+    width: 503px;
+    margin: 0 auto;
+}
+
+.aside_ a {
+    display: inline-block;
+    padding-bottom: 12px;
+    width: 165px;
+    font-size: 18px;
+    text-align: center;
+    color: #a3a3a3;
+}
+
+.ion a:nth-child(3) {
+    color: red;
+    border-bottom: 4px #fe5431 solid;
+    padding-bottom: 8px;
+}
+
+/* 品类 */
+article {
+    background: #f7f7f7;
+    padding: 25px 0px 45px;
+}
+
+.classion {
+    width: 1000px;
+    /* border: 1px solid #a3a3a3; */
+    border-radius: 7px;
+    margin: 25px auto 0px;
+    color: #a3a3a3;
+    font-size: 14px;
+}
+
+.life,
+.nursing,
+.key,
+.wear,
+.trip,
+.outdoors,
+.phy,
+.phone {
+    background: #fff;
+    padding-top: 25px;
+    margin-bottom: 40px;
+}
+
+.life h2,
+.nursing h2,
+.key h2,
+.wear h2,
+.trip h2,
+.outdoors h2,
+.phy h2,
+.phone h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    border-left: 5px solid #fe5431;
+    padding-left: 25px;
+    margin-bottom: 40px;
+}
+
+.life_img,
+.nursing_img,
+.key_img,
+.wear_img,
+.trip_img,
+.outdoors_img,
+.phy_img,
+.phone_img {
+    overflow: hidden;
+}
+
+.life_img ul li,
+.nursing_img ul li,
+.key_img ul li,
+.wear_img ul li,
+.trip_img ul li,
+.outdoors_img ul li,
+.phy_img ul li,
+.phone_img ul li {
+    width: 120px;
+    height: 140px;
+    text-align: center;
+    float: left;
+    margin: 10px 20px;
+}
+
+.life_img ul li img:hover,
+.nursing_img ul li img:hover,
+.key_img ul li img:hover,
+.wear_img ul li img:hover,
+.trip_img ul li img:hover,
+.outdoors_img ul li img:hover,
+.phy_img ul li img:hover,
+.phone_img ul li img:hover {
+    animation: xuanzhuan 0.5s 1;
+    -webkit-animation: xuanzhuan 0.5s 1;
+    -moz-animation: xuanzhuan 0.5s 1;
+}
+
+/* 图标动画 */
+@keyframes xuanzhuan {
+    from {
+        transform: perspective(400px) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
+        animation-timing-function: linear;
+    }
+
+    20% {
+        transform: perspective(400px) translate3d(0, 0, 0) rotate3d(0, 1, 0, -300deg);
+        animation-timing-function: linear;
+    }
+
+    40% {
+        transform: perspective(400px) translate3d(0, 0, 0) rotate3d(0, 1, 0, -240deg);
+        animation-timing-function: linear;
+    }
+
+    60% {
+        transform: perspective(400px) translate3d(0, 0, 0) rotate3d(0, 1, 0, -180deg);
+        animation-timing-function: linear;
+    }
+
+    80% {
+        transform: perspective(400px) translate3d(0, 0, 0) rotate3d(0, 1, 0, -60deg);
+        animation-timing-function: linear;
+    }
+
+    to {
+        transform: perspective(400px) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+        ;
+        animation-timing-function: linear;
+    }
+}
+
+.life_img ul li a,
+.nursing_img ul li a ,
+.key_img ul li a,
+.wear_img ul li a,
+.trip_img ul li a,
+.outdoors_img ul li a,
+.phy_img ul li a,
+.phone_img ul li a {
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+    color: #a3a3a3;
+}
+
+.life_img ul li a:hover,
+.nursing_img ul li a:hover,
+.key_img ul li a:hover,
+.wear_img ul li a:hover,
+.trip_img ul li a:hover,
+.outdoors_img ul li a:hover,
+.phy_img ul li a:hover,
+.phone_img ul li a:hover {
+    color: #fe5431;
+}
+
+.life_text,
+.nursing_text,
+.key_text,
+.wear_text,
+.trip_text,
+.outdoors_text,
+.phy_text,
+.phone_text {
+    border-top: 2px dashed #f7f7f7;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.life_text ul,
+.nursing_text ul,
+.key_text ul,
+.wear_text ul,
+.trip_text ul,
+.outdoors_text ul,
+.phy_text ul,
+.phone_text ul {
+    margin-top: 10px;
+}
+
+.life_text ul li a,
+.nursing_text ul li a,
+.key_text ul li a,
+.wear_text ul li a,
+.trip_text ul li a,
+.outdoors_text ul li a,
+.phy_text ul li a,
+.phone_text ul li a {
+    width: 160px;
+    text-align: center;
+    margin: 10px 0px;
+    float: left;
+    color: #a3a3a3;
+}
+
+.life_text ul li a:hover,
+.nursing_text ul li a:hover,
+.key_text ul li a:hover,
+.wear_text ul li a:hover,
+.trip_text ul li a:hover,
+.outdoors_text ul li a:hover,
+.phy_text ul li a:hover,
+.phone_text ul li a:hover {
+    color: #fe5431;
+}

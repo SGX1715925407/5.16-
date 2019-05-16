@@ -1,0 +1,145 @@
+/* 页面头部 */
+.fontColor {
+    color: #ef6a4b;
+}
+
+/*头部*/
+header{
+    border-bottom: 1px solid #cecfcf;
+    box-shadow:0 0 5px #cecfcf inset;
+}
+header .head{
+    width: 1005px;
+    height: 74px;
+    line-height: 74px;
+    margin: 0 auto;
+}
+/*logo*/
+.logo {
+    float: left;
+    margin-right: 20px;
+}
+.logo:hover {
+    animation: logo ease-in infinite 1s;
+}
+.logo img {
+    margin-top: 11px;
+    width: 135px;
+}
+
+@keyframes logo {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*导航*/
+header ul>li {
+    float: left;
+    padding: 0 25px;
+    font-size: 19px;
+}
+
+header li>a:hover {
+    color: #ef6a4b;
+}
+
+/*搜索 注册*/
+.register {
+    float: left;
+    margin-left: 262px;
+}
+
+.register .sea {
+    display: inline-block;
+    background: url("./img/search.png") no-repeat;
+    height: 33px;
+    width: 25px;
+    vertical-align: middle;
+    margin: 0 8px;
+    transition: transform 0.08s ease;
+}
+
+
+.register .sea:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.register .res {
+    display: inline-block;
+    margin: 0 8px;
+    width: 54px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    border: 1px solid #fa553f;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.register .res:hover {
+    background: #fa553f;
+    color: #fff;
+}
+
+/* 登录注册 */
+
+/* 页面底部 */
+footer {
+    background: #505050;
+    height: 320px;
+    padding-top: 40px;
+}
+
+.footer_img1 {
+    width: 160px;
+    height: 160px;
+}
+
+.footer_div {
+    width: 1005px;
+    min-width: 1005px;
+    margin: auto;
+}
+.footer_div a{
+    color: #a3a3a3;
+}
+.footer_div dl {
+    font-size: 12px;
+    float: left;
+    margin: 0 13px;
+}
+
+.footer_div dl dt {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer_logo dd {
+    padding-bottom: 18px;
+}
+
+.footer_div dl dd {
+    margin-bottom: 4px;
+}
+
+.link dd a {
+    display: inline-block;
+    width: 69px;
+}
+
+.footer_p {
+    text-align: center;
+    font-size: 13px;
+    color: #a3a3a3;
+    margin-top: 280px;
+}

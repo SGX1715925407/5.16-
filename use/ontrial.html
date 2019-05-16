@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>免费试用——使用中</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/use.css">
+    <script src="../js/jquery-3.4.0.js"></script>
+    <script src="../json/doT.min.js"></script>
+    <script src="../js/ontario.js"></script>
+</head>
+<body>
+<!--头部-->
+<header>
+    <div class="head">
+        <div class="logo"><img src="../img/logonew.png" alt=""></div>
+        <ul>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="../play/kuwan.html">酷玩</a></li>
+                <li><a href="../guid/dao gou.html">导购</a></li>
+                <li><a href="#" class="fontColor">试用</a></li>
+                <li><a href="../use/tation2.html">报告</a></li>
+        </ul>
+        <div class="register">
+            <a href="#" class="sea"></a>
+            <a href="#" class="res fontColor">注册</a>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</header>
+<!--中间内容区-->
+<section>
+    <!--导航-->
+    <nav>
+        <h1>免费试用</h1>
+        <a href="index.html" class="public">大众试用</a>
+        <a href="vipIndex.html">体验师专享</a>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">全部</a></li>
+                <li><a href="apply.html">申请中</a></li>
+                <li><a href="#" class="all">使用中</a></li>
+                <li><a href="over.html">已结束</a></li>
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+    </nav>
+    <!--主题内容-->
+    <article>
+        <dl id="allList">
+            <!--<dt>-->
+            <!--<img src="../img/bg1.jpg" alt="">-->
+            <!--<span class="F_share">首发</span>-->
+            <!--<div class="cont">-->
+            <!--<h4>巴慕达 The Toaster 烤面包机</h4>-->
+            <!--<div class="num">-->
+            <!--<span>2032</span>-->
+            <!--<span>20台</span>-->
+            <!--</div>-->
+            <!--<div class="apply"><span>1392</span>申请</div>-->
+            <!--<div class="info">报告数量</div>-->
+            <!--</div>-->
+            <!--</dt>-->
+            <div class="clearfix"></div>
+        </dl>
+        <div class="playMove">没有更多了~</div>
+        <div class="playing"><span>正在加载，请稍后~</span></div>
+    </article>
+</section>
+<!-- 页面底部 -->
+<footer>
+    <div class="footer_div">
+        <dl>
+            <img src="../img/code.png" alt="" class="footer_img1">
+        </dl>
+        <dl class="footer_logo">
+            <dt><img src="../img/logoImg.jpg" alt=""></dt>
+            <dd><a href="#">全球酷玩试用导购平台<br>
+                酷·新奇·好玩·品质</a></dd>
+            <dd><a href="#">微信添加“JguoJguo”<br>
+                获取我们的服务。</a></dd>
+        </dl>
+        <dl>
+            <dt>免费试用</dt>
+            <dd><a href="#">试用流程</a></dd>
+            <dd><a href="#">如何提高成功率</a></dd>
+        </dl>
+        <dl class="link">
+            <dt>友情链接</dt>
+            <dd><a href="#">智东西</a><a href="#">WEIBUSI</a></dd>
+            <dd><a href="#">搜狐IT</a><a href="#"> 腾讯科技</a></dd>
+            <dd><a href="#">搜狐数码</a><a href="#">凤凰科技</a></dd>
+            <dd><a href="#">凤凰数码</a><a href="#">PConline</a></dd>
+            <dd><a href="#">泡泡网</a><a href="#">3W咖啡</a></dd>
+            <dd><a href="#">ZUK社区</a><a href="#">亿觅emie</a></dd>
+            <dd><a href="#">极客公园</a><a href="#">易迅易启玩</a></dd>
+            <dd><a href="#">果库</a><a href="#"></a></dd>
+        </dl>
+        <dl>
+            <dt>购买攻略</dt>
+            <dd><a href="#">美亚海淘教程</a></dd>
+            <dd><a href="#">日亚海淘教程</a></dd>
+            <dd><a href="#">海淘转运攻略</a></dd>
+            <dd><a href="#">kickstarter 众筹购买攻略</a></dd>
+            <dd><a href="#">indiegogo 众筹购买攻略</a></dd>
+        </dl>
+        <dl>
+            <dt>厂商合作</dt>
+            <dd><a href="#">关于极果</a></dd>
+            <dd><a href="#">联系我们</a></dd>
+            <dd><a href="#">海淘转运攻略</a></dd>
+            <dd><a href="#">商务合作：BD@jiguo.com</a></dd>
+            <dd><a href="#">indiegoCEO邮箱：CEO@jiguo.com</a></dd>
+        </dl>
+    </div>
+    <p class="footer_p">@ 2016 极果版权所有</p>
+</footer>
+</body>
+
+<!-- 1.准备模板 -->
+<script id="Ontario_tpl" type="text/x-dot-template">
+    {{~it.Ontario_ing:value:index}}
+    <dt>
+        <img src="{{=value.img_url}}" alt="">
+        <!--根据 首发、体验师专享 来规定使用的css样式-->
+        {{?value.text === "首发"}}
+        <span class="text">{{=value.text}}</span>
+        {{??value.text === "体验师专享"}}
+        <span class="F_share">{{=value.text}}</span>
+        {{?}}
+        <div class="cont">
+            <h3>{{=value.title}}</h3>
+            <div class="num">
+                {{~value.num_arr:val:ind}}
+                <span class="nameList listBorder">{{=val}}</span>
+                {{~}}
+            </div>
+            <!--根据json数据返回type来决定使用哪个div-->
+            <div class="apply"><span>{{=value.apply}}</span>申请</div>
+            {{?value.info.type === 0}}
+            <div class="nameList">报告数量 : {{=value.info.num}}</div>
+            {{??value.info.type === 2}}
+            <div class="nameList">剩余时间{{=value.info.num}}天</div>
+            {{??value.info.type === 1}}
+            <div class="nameList">查看试用名单</div>
+            {{?}}
+        </div>
+    </dt>
+    {{~}}
+</script>
+</html>

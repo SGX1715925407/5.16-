@@ -1,0 +1,183 @@
+.aside {
+    width: 1000px;
+    min-width: 1000px;
+    margin: auto;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+.a-box h3 {
+    font: 25px "微软雅黑";
+    padding-left: 15px;
+    margin: 20px 0;
+    border-left: 5px solid red;
+}
+
+.a-box2 dl dt {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.a-box2 dl dd {
+    width: 270px;
+    color: #919191;
+    font-size: 15px;
+}
+
+.aside h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 40px 0px 40px 0px;
+    color: #333;
+}
+
+.aside_ {
+    width: 365px;
+    margin: 0 auto;
+}
+
+.aside_ a {
+    display: inline-block;
+    padding-bottom: 12px;
+    width: 170px;
+    font-size: 18px;
+    text-align: center;
+    color: #a3a3a3;
+    /* margin: 0px 10px; */
+}
+
+.ion a:nth-child(2) {
+    color: red;
+    border-bottom: 4px #fe5431 solid;
+    padding-bottom: 8px;
+}
+
+
+/* 渲染数据 */
+.section_box {
+    width: 100%;
+    overflow: hidden;
+    background: #f7f7f7;
+}
+
+article {
+    width: 1000px;
+    margin: auto;
+}
+
+.article {
+    margin-top: 20px;
+    float: left;
+}
+
+.play {
+    width: 700px;
+
+}
+
+.play_div>img {
+    display: block;
+    width: 97%;
+}
+
+.tong h1 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 25px 0px 23px 20px;
+}
+.tong p{
+    display: inline-block;
+    margin: 0px 0px 20px 20px;
+
+}
+.tong p i{
+    width: 30px;
+    height: 10px;
+    display: inline-block;
+}
+.play_div p span {
+    margin-left: 5px;
+}
+
+.play_div {
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+.tong p:nth-child(3){
+    position: absolute;
+    right: 40px;
+}
+.play_div img {
+    width: 680px;
+    height: 412px;
+}
+
+.tong {
+    width: 684px;
+    background: #f7f7f7;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+    margin: auto;
+}
+.tong p:nth-child(2){
+    height: 20px;
+    line-height: 20px;
+}
+.tong p span:nth-child(2) {
+    color: #fe5431;
+}
+.play:hover{
+    animation: opacity 2s ease 0s infinite;
+}
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.play_bottom {
+    width: 680px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 14px;
+    color: #a3a3a3;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+.tong p i:nth-child(1) {
+    background: url(../css/img/xin.png)no-repeat center;
+}
+
+.tong p i:nth-child(2) {
+    background: url(../css/img/reply.png)no-repeat center;
+}
+.tong p:nth-child(2){
+    width: 200px;
+}
+.tong p span:nth-child(1){
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/cat_11.png)no-repeat ;
+    font-size: 100%;
+}

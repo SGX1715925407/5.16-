@@ -1,0 +1,101 @@
+aside{
+    width:1000px;
+height:170px;
+/* box-sizing: border-box; */
+text-align: center;
+margin:0 auto;
+box-sizing: border-box;
+}
+aside>p{
+    font-size: 38px; 
+    padding:50px 0 18px 0;
+}
+aside>div>a{
+    display:inline-block;
+    width:167px;
+    height:47px;
+    font-size:18px;
+}
+.aside_abtm{
+    border-bottom:5px solid red;
+}
+.navs{
+    height:1142px;
+    width:100%;
+    background-color:#f7f7f7;
+    position: relative;
+    overflow: hidden;
+}
+.navs>div{
+    width:1000px;
+    height:992px;
+    /* position:absolute;
+    top:26px;
+    /* left:275px; */ 
+    margin: 0 auto;
+    padding-top: 20px;
+   display: none;
+}
+
+.lis>li,.lis1>li{
+    width:220px;
+    height:230px;
+    background-color: #fff;
+    margin-right: 40px;
+    float:left;
+    position: relative;
+    border-radius:10px;
+    margin-bottom:30px;
+    position: relative;
+}
+.lis>li:nth-child(4n),.lis1>li:nth-child(4n){
+    margin-right:0;
+}
+.lis>li>img:nth-child(1),.lis1>li>img:nth-child(1){
+    width:100%;
+    height:130px;
+    border-radius:10px 10px 0 0;
+}
+.lisp1{
+    font-size:15px;
+    color:black;
+    margin:0 0 10px 10px;
+}
+.lisp2{
+    font-size:12px;
+    color:#ccc;
+    margin-left:10px;
+}
+
+.lisspan1{
+    color:red;
+    position:absolute;
+    left:17px;
+    bottom:17px;
+    font-size:15px;
+}
+.lisspan2{
+    position:absolute;
+    right:17px;
+    bottom:17px;
+    color:#ccc;
+    vertical-align: middle;
+}
+.navslastspan{
+    padding-left: 30px;
+    background: url("img/more.png") no-repeat left center;
+    font-size:15px;
+    color:red;
+    position:absolute;
+    bottom:40px;
+    left:627px;
+    cursor: pointer;
+}
+.loading{
+    background:url('img/loading-icon.gif') no-repeat left center;
+}
+.listbg{
+    position: absolute;
+    bottom:-10px;
+    left:0;
+}

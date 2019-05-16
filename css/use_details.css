@@ -1,0 +1,300 @@
+#uses_out {
+    width: 100%;
+    overflow: hidden;
+    background: #f7f7f7;
+}
+
+.uses {
+    width: 1000px;
+    min-width: 1000px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.uses_p {
+    width: 45px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 11px;
+    border-left: 6px solid #fe5341;
+    float: left;
+    color: #334238;
+}
+
+.uses ul li {
+    width: 100px;
+    text-align: center;
+    color: #728481;
+    margin: 0 40px;
+    float: left;
+}
+
+.uses ul li span {
+    display: block;
+    margin: 2px 0 20px;
+}
+
+.uses li:nth-child(1) span {
+    display: inline-block;
+    border-bottom: 2px solid #fe5341;
+    padding-bottom: 2px;
+}
+
+/* 详情 */
+.art_out {
+    width: 1000px;
+    min-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+article {
+    width: 65%;
+    float: left;
+    padding-right: 20px;
+}
+
+.article h3 {
+    margin: 30px 0 20px 0;
+    padding-left: 10px;
+    border-left: 5px solid red;
+    font-size: 20px;
+    font-weight: normal;
+    color: #4e5150;
+}
+
+.article dl dt {
+    font-size: 20px;
+    margin: 30px 0;
+    color: #006abe;
+
+}
+
+.article .red {
+    color: #ff1500;
+    font-size: 20px;
+    font-weight: bold;
+}
+.article dd{
+    font-size: 15px;
+    color: #262933;
+    font-family: "Microsoft YaHei","微软雅黑","黑体";
+    line-height: 25px;
+}
+.article p{
+    font-size: 15px;
+    color: #262933;
+    line-height: 25px;
+    font-family: "Microsoft YaHei","微软雅黑","黑体";
+}
+.article .blue {
+    color: #0494ce;
+    margin: 20px 0;
+}
+
+.article dl dd img {
+    margin: 20px 0;
+}
+
+.asd dl dt,
+.asd dl dd {
+    display: inline;
+}
+
+.asd h4 {
+    color: red;
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.asd dl dt {
+    color: #1f1f1f;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+.a-box h3 {
+    font: 25px "微软雅黑";
+    padding-left: 15px;
+    margin: 20px 0;
+    border-left: 5px solid red;
+}
+
+.a-box1 p:first-of-type {
+    font-size: 35px;
+    color: red;
+}
+
+.a-box1 a {
+    display: block;
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    margin: 20px 10px;
+    border-radius: 5px;
+
+    background-color: red;
+}
+
+.a-box1 p:last-of-type {
+    text-indent: 100px;
+    font-size: 15px;
+    color: #919191;
+}
+
+.a-box2 dl dt {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.a-box2 dl dd {
+    width: 270px;
+    color: #919191;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* 四个小盒子 */
+.foot-img {
+    position: relative;
+    width: 1000px;
+    min-width: 1000px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.text-pic {
+    overflow: hidden;
+    margin: 20px 0px;
+}
+
+.text-pic h3 {
+    float: left;
+    font-size: 20px;
+}
+
+.text-pic a {
+    display: block;
+    font-size: 14px;
+    color: #fe5341;
+    float: right;
+}
+
+.out-pic {
+    overflow: hidden;
+
+}
+
+.out-pic a {
+    width: 233px;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 10px 20px 10px 0;
+    float: left;
+    border: 1px solid #eaeaea;
+}
+.out-pic a:nth-child(4){
+    margin-right: 0;
+}
+
+.out-pic a img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.out-pic a img:hover {
+    animation: opacity ease-in infinite 1.2s both;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.shou-f {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-size: 15px;
+    padding: 3px 10px;
+    background: #f00;
+    border-radius: 0px 5px;
+
+}
+
+.out-pic p:first-of-type {
+    color: black;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 5px 5px;
+
+}
+
+.out-pic p:nth-of-type(2) {
+    margin: 5px 0;
+}
+
+.out-pic p:nth-of-type(2) span {
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 0px 5px;
+    color: red;
+    font-size: 15px;
+    padding: 2px 5px;
+}
+
+.out-pic p:nth-of-type(3) {
+    padding: 7px 0;
+}
+
+.out-pic p:nth-of-type(3) span {
+    color: red;
+    font-size: 16px;
+}
+.out-pic p:nth-of-type(4){
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.out-pic p:last-of-type {
+    color: red;
+}
+
+.pic-a2 .shou-f {
+    background-color: #fff4c5;
+    color: #c2a566;
+}
+
+.pic-a2 p:nth-of-type(2) span {
+    color: #7bc366;
+    font-size: 14px;
+    border: 1px solid #7bc366;
+}
+
+.pic-a2 p:last-of-type {
+    color: #7bc366;
+}

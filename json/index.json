@@ -1,0 +1,181 @@
+{
+  "allTitle_report": [
+    {
+      "title": "报告精选",
+      "text": "查看更多"
+    }
+  ],
+  "allTitle_shopping": [
+    {
+      "title": "导购精选",
+      "text": "查看更多"
+    }
+  ],
+  "allTitle_play": [
+    {
+      "title": "发现酷玩",
+      "text": "查看更多"
+    }
+  ],
+
+  "report": [
+    {
+      "img": "./img/bg1.jpg",
+      "cont_text": "空气净化器里面学问多得惊呆你，你选对了吗？",
+      "name": "● 苏苏",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/bg2.jpg",
+      "cont_text": "怎么骑都不会累的智能自行车：云马 C1试骑体验",
+      "name": "● 好吗",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/bg3.jpg",
+      "cont_text": "声音不是最优秀，但它形音完美的结合，足够打动人心",
+      "name": "● iAra",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/bg4.jpg",
+      "cont_text": "风光大片信手拈来！vivo X6Plus不只是快，还是一台拍照利器",
+      "name": "● 苏苏",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/bg5.jpg",
+      "cont_text": "空气净化器里面学问多得惊呆你，你选对了吗？",
+      "name": "● 苏苏",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/bg6.jpg",
+      "cont_text": "声音不是最优秀，但它形音完美的结合，足够打动人心",
+      "name": "● 苏苏",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/bg7.jpg",
+      "cont_text": "怎么骑都不会累的智能自行车：云马 C1试骑体验",
+      "name": "● 苏苏",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/bg1.jpg",
+      "cont_text": "空气净化器里面学问多得惊呆你，你选对了吗？",
+      "name": "● 苏苏",
+      "nums": [3,3]
+    }
+  ],
+
+  "ShoppingGuide": [
+    {
+      "img": "./img/g1.jpg",
+      "cont_text": "花万元把蜗居秒变“豪宅”？这12件家具就能帮你办到",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/g2.jpg",
+      "cont_text": "到底有没有完美的iPhone手机配件，答案都在这里",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/g3.jpg",
+      "cont_text": "2016，这8支钢笔够你装逼一整年,每支都有自己的个性",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/g4.jpg",
+      "cont_text": "他用12年找一把完美 剃须刀，给你2万字终极购买指南",
+      "nums": [3,3]
+    }
+  ],
+
+  "playings":[
+    {
+      "img": "./img/k1.jpg",
+      "title": "SCiO 微型光谱仪",
+      "describe": "可以测定食物成分及营养",
+      "price": "￥ 1212",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/k2.jpg",
+      "title": "B&O BeoSound 35 音响",
+      "describe": "支持所有音乐流媒体服务",
+      "price": "￥ 512",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/k3.jpg",
+      "title": "Mozbii 触控吸色笔",
+      "describe": "能吸取65000种颜色",
+      "price": "￥ 暂无",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/k4.jpg",
+      "title": "XPLORER 2 航拍飞行器",
+      "describe": "搭载自动避障系统",
+      "price": "￥ 433",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/k1.jpg",
+      "title": "SCiO 微型光谱仪",
+      "describe": "可以测定食物成分及营养",
+      "price": "￥ 1212",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/k2.jpg",
+      "title": "B&O BeoSound 35 音响",
+      "describe": "支持所有音乐流媒体服务",
+      "price": "￥ 512",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/k3.jpg",
+      "title": "Mozbii 触控吸色笔",
+      "describe": "能吸取65000种颜色",
+      "price": "￥ 暂无",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/k4.jpg",
+      "title": "XPLORER 2 航拍飞行器",
+      "describe": "搭载自动避障系统",
+      "price": "￥ 433",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/k1.jpg",
+      "title": "SCiO 微型光谱仪",
+      "describe": "可以测定食物成分及营养",
+      "price": "￥ 1212",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/k2.jpg",
+      "title": "B&O BeoSound 35 音响",
+      "describe": "支持所有音乐流媒体服务",
+      "price": "￥ 512",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/k3.jpg",
+      "title": "Mozbii 触控吸色笔",
+      "describe": "能吸取65000种颜色",
+      "price": "￥ 暂无",
+      "nums": [3,3]
+    },
+    {
+      "img": "./img/k4.jpg",
+      "title": "XPLORER 2 航拍飞行器",
+      "describe": "搭载自动避障系统",
+      "price": "￥ 433",
+      "nums": [3,3]
+    }
+  ]
+}

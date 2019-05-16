@@ -1,0 +1,151 @@
+
+.big-center{
+    width: 100%;
+    height: 1270px;
+}
+.center-top{
+    width: 77%;
+    /* height: 2480px; */
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    min-width: 1100px;
+}
+.ct-left{
+    width: 275px;
+    height: 315px;
+    background: #f3f3f3;
+    overflow: hidden;
+}
+.help{
+    width: 230px;
+    height: 272px;
+    border-radius:15px; 
+    margin: 20px auto;
+}
+#SGV{
+    font-size:18px;
+    cursor:pointer;
+}
+.help h3{
+    width: 230px;
+    height: 50px;
+    /* border: 1px red solid; */
+    line-height: 50px;
+    border-bottom: 1px black solid;
+}
+.help h3:nth-child(1){
+    font-size:18px;
+}
+ul{
+    list-style: none;
+    margin-top: 6px;
+}
+ul li {
+    margin-top: 10px;
+}
+.sort{
+    margin-top: 21px;
+}
+.sort-bottom{
+    margin-top: 21px;
+}
+li{
+    margin-left: 15px;
+}
+.team{
+    width: 765px;
+    height: 1200px;
+    position: absolute;
+    background:  #f3f3f3;
+    top: 0;
+    left: 310px;
+}
+.lianxi p{
+  font-size: 16px;
+  font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contain{
+    width: 645px;
+    /* height: 300px; */
+    margin: 0 auto;
+}
+.contain h4{
+    margin-top:20px;
+}
+.contain h3{
+    width: 645px;
+    height: 50px;
+    margin-top: 18px;
+    line-height: 50px;
+    border-bottom: 1px black solid;
+}
+.guanyu{
+    margin-top: 30px;
+}
+p{
+    margin-top: 5px;
+}
+.p1{
+    margin-top: 30px;
+}
+.dashi{
+    margin-top: 30px;
+}
+.p2{
+    margin-top: 30px;
+}
+.lianxi{
+    margin-top: 30px;
+}
+.free{
+    width: 765px;
+    height: 880px;
+    position: absolute;
+    background:  #f3f3f3;
+    top: 0;
+    left: 310px;
+    display: none;
+}
+.free-contain{
+    width: 645px;
+    /* height: 300px; */
+    margin: 0 auto;
+}
+.free-contain h3{
+    width: 645px;
+    height: 50px;
+    margin-top: 18px;
+    line-height: 50px;
+    border-bottom: 1px black solid;
+}
+.shiyong{
+    margin-top: 30px;
+}
+.zhuyi{
+    margin-top: 30px;
+}
+.success{
+    margin-top: 30px;
+}
+div .p6{
+    margin-top: 25px;
+}
+.team p{
+    font-size: 15px
+}
+.team h4{
+    font-size: 19px;
+}
+
+.SGX{
+    font-size:13px;
+    cursor:pointer;
+}
+/* 底部超链接 */
+
+

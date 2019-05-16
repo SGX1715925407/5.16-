@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/dao gou.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <script src="../json/doT.min.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+            <div class="head">
+        <div class="logo"><img src="../img/logonew.png" alt=""></div>
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="../play/kuwan.html">酷玩</a></li>
+            <li><a href="#" class="fontColor">导购</a></li>
+            <li><a href="../use/index.html">试用</a></li>
+            <li><a href="../use/tation2.html">报告</a></li>
+        </ul>
+        <div class="register">
+            <a href="#" class="sea"></a>
+            <a href="../regist.html" class="res fontColor">注册</a>
+        </div>
+            </div>
+        <div class="clearfix"></div>
+    </header>
+
+    <!-- 登录注册 -->
+    <aside>
+            <p>导购清单</p>
+            <div class="aside_ ion">
+                <a href="#" class="aside_a aside_abtm">最新</a>
+                <a href="#" class="aside_b">最热</a>
+            </div>
+        </aside>
+        <nav class="navs">
+           
+            <div class="div-one">
+                <ul class="lis">
+    
+                </ul> 
+            </div>
+            <div class="div-two">  
+                <ul class="lis1">
+                </ul>
+            </div>
+            <div class="div-three"> 
+            </div>
+        
+           <span class="navslastspan">加载更多</span>
+    </nav>
+
+
+    
+    <!-- 页面底部 -->
+    <footer>
+        <div class="footer_div">
+            <dl>
+                <img src="../img/code.png" alt="" class="footer_img1">
+            </dl>
+            <dl class="footer_logo">
+                <dt><img src="../img/logoImg.jpg" alt=""></dt>
+                <dd><a href="#">全球酷玩试用导购平台<br>
+                        酷·新奇·好玩·品质</a></dd>
+                <dd><a href="#">微信添加“JguoJguo”<br>
+                        获取我们的服务。</a></dd>
+            </dl>
+            <dl>
+                <dt>免费试用</dt>
+                <dd><a href="#">试用流程</a></dd>
+                <dd><a href="#">如何提高成功率</a></dd>
+            </dl>
+            <dl class="link">
+                <dt>友情链接</dt>
+                <dd><a href="#">智东西</a><a href="#">WEIBUSI</a></dd>
+                <dd><a href="#">搜狐IT</a><a href="#"> 腾讯科技</a></dd>
+                <dd><a href="#">搜狐数码</a><a href="#">凤凰科技</a></dd>
+                <dd><a href="#">凤凰数码</a><a href="#">PConline</a></dd>
+                <dd><a href="#">泡泡网</a><a href="#">3W咖啡</a></dd>
+                <dd><a href="#">ZUK社区</a><a href="#">亿觅emie</a></dd>
+                <dd><a href="#">极客公园</a><a href="#">易迅易启玩</a></dd>
+                <dd><a href="#">果库</a><a href="#"></a></dd>
+            </dl>
+            <dl>
+                <dt>购买攻略</dt>
+                <dd><a href="#">美亚海淘教程</a></dd>
+                <dd><a href="#">日亚海淘教程</a></dd>
+                <dd><a href="#">海淘转运攻略</a></dd>
+                <dd><a href="#">kickstarter 众筹购买攻略</a></dd>
+                <dd><a href="#">indiegogo 众筹购买攻略</a></dd>
+            </dl>
+            <dl>
+                <dt>厂商合作</dt>
+                <dd><a href="#">关于极果</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+                <dd><a href="#">海淘转运攻略</a></dd>
+                <dd><a href="#">商务合作：BD@jiguo.com</a></dd>
+                <dd><a href="#">indiegoCEO邮箱：CEO@jiguo.com</a></dd>
+            </dl>
+        </div>
+        <p class="footer_p">@ 2016 极果版权所有</p>
+    </footer>
+</body>
+    <script src="../js/jquery-3.4.0.js"></script>
+    <script src="../js/dao gou.js"></script>
+    <script id="cuslist" type="text/x-dot-template">
+        {{~it.lis:value:index}}
+        <li> 
+                <img src='{{=value.lisimg}}' alt="111">
+                <p class="lisp1">{{=value.lisp1}}</p>
+                 <span class="lisspan2">
+                     <img src="{{=value.lisspan2[0]}}" alt="">{{=value.lisspan2[1]}}
+                     <img src="{{=value.lisspan2[2]}}" alt="">{{=value.lisspan2[3]}}</span>
+                     <img src="{{=value.listbg}}" alt="" class="listbg">
+        </li>
+        {{~}}
+    </script>
+    <script id="cuslistone" type="text/x-dot-template">
+        {{~it.lis1:value:index}}
+        <li> 
+                <img src='{{=value.lisimg}}' alt="111">
+                <p class="lisp1">{{=value.lisp1}}</p>
+                 <span class="lisspan2">
+                     <img src="{{=value.lisspan2[0]}}" alt="">{{=value.lisspan2[1]}}
+                     <img src="{{=value.lisspan2[2]}}" alt="">{{=value.lisspan2[3]}}</span>
+                     <img src="{{=value.listbg}}" alt="" class="listbg">
+        </li>
+        {{~}}
+    </script>
+</html>

@@ -1,0 +1,180 @@
+/*导航*/
+section nav{
+    text-align: center;
+}
+section nav h1{
+    font-size: 39px;
+    margin: 45px 0;
+}
+section nav>a{
+    display: inline-block;
+    font-size: 20px;
+    color: #9fa7a7;
+    padding: 0 45px 14px 45px;
+    cursor: pointer;
+}
+section .public{
+    color: #ff573c;
+    border-bottom: 3px solid #fa5b2e;
+}
+nav .nav{
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.nav ul{
+    width: 638px;
+    margin: 0 auto;
+}
+nav ul>li{
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    padding: 0 55px;
+
+}
+.all{
+    color: #3e3d22;
+}
+nav li>a{
+    color: #9fa7a7;
+}
+/*列表——主体内容*/
+article{
+    background: #f7f7f7;
+    overflow: hidden;
+    font-size: 0;
+}
+#allList {
+    width: 1000px;
+    margin: 24px auto;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+#allList>dt {
+    float: left;
+    width: 220px;
+    height: 290px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-right: 37px;
+    margin-bottom: 36px;
+}
+#allList>dt:nth-child(4n) {
+    margin-right: 0;
+}
+#allList>dt>img {
+    width: 100%;
+    height:145px;
+}
+/*首发*/
+#allList dt>span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 8px;
+    font-size: 12px;
+    border-radius: 0 5px;
+}
+#allList .text{
+    background: red;
+    color: #fff;
+}
+/*体验师专享*/
+.F_share{
+    background: #fff4c5;
+    color: #c2a566;
+}
+#allList .cont{
+    padding: 10px;
+}
+.cont h3{
+    font-size: 15px;
+}
+.num {
+    margin: 10px 0;
+}
+.num span:nth-child(1){
+    margin-right: 10px;
+}
+.num span {
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+.cont div{
+    font-size: 12px;
+}
+
+/*申请的颜色*/
+.cont .reportNum{
+    color: #c7cac9;
+}
+/*剩余时间的颜色*/
+.cont .time{
+    color: #ff513f;
+}
+/*查看试用名单的颜色*/
+.cont .nameList{
+    color: #7bc366;
+}
+/*2032 20台的边框*/
+.numBorder{
+    border: 1px solid #c7cac9;
+}
+.timeBorder{
+    border: 1px solid #ff513f;
+}
+.listBorder{
+    border: 1px solid #7bc366;
+}
+
+.apply {
+    font-size: 15px;
+    margin: 5px 0;
+    color: #343f31;
+}
+.apply span {
+    color: #ff473f;
+}
+/*向下加载更多、没有更多了*/
+.playMove,.playing{
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 16px;
+    color: #959898;
+}
+.playMove{
+    display: none;
+}
+.playMove a{
+    background: url("./img/more.png") no-repeat left center;
+    color: #ff5634;
+    padding-left:24px
+}
+.playing span{
+    display: inline-block;
+    padding-left: 24px;
+    background: url("../css/img/loading-icon.gif") no-repeat left center;
+}
+/*列表图片的动画效果*/
+#allList>dt:hover img{
+    animation: img_anim ease-in infinite 1.2s both;
+}
+@keyframes img_anim {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
